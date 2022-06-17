@@ -1,0 +1,62 @@
+
+table, th, td {
+text-align: center;
+  padding: 8px;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+#errmsg {
+    margin-top: 15px;
+}
+
+body {
+    background-color: rgb(7, 92, 88);
+}
+
+.container{
+    background-color: lightseagreen;
+    border-style: groove;
+}
+
+.title{
+    text-align: center;
+    background-color: lightseagreen;    
+    border-style: groove;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    margin-top: 3%;
+    width: 80%;
+    padding-left: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    overflow-x:auto;
+    overflow-y:auto;
+}
+
+table {
+    max-width: 100%;
+}
+
+th {
+    background-color: palevioletred;
+}
+
+tr td {
+    background-color: mediumturquoise;
+}
+
+tr:nth-child(even) td:nth-child(odd), 
+tr:nth-child(odd) td:nth-child(even) {
+    background-color: white;
+}
+
+.result {
+    max-height: 500px;
+}
